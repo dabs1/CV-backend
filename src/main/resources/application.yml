@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/cvdb}
+
+app:
+  security:
+    api-key: ${API_KEY:chave-secreta-local-para-desenvolvimento}
+  cors:
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:5173}
