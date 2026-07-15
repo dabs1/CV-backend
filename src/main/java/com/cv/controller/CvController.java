@@ -13,7 +13,7 @@ public class CvController {
 
     private final CvService cvService;
 
-    // Adicione este construtor manualmente
+    // Constructor injection
     public CvController(CvService cvService) {
         this.cvService = cvService;
     }

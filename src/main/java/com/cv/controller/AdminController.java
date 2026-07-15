@@ -11,7 +11,7 @@ public class AdminController {
 
     private final CvService cvService;
 
-    // Adicione este construtor manualmente
+    // Constructor injection
     public AdminController(CvService cvService) {
         this.cvService = cvService;
     }

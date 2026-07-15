@@ -9,7 +9,7 @@ public class CvService {
 
     private final CvRepository cvRepository;
 
-    // Adicione este construtor manualmente
+    // Constructor injection
     public CvService(CvRepository cvRepository) {
         this.cvRepository = cvRepository;
     }
