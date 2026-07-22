@@ -39,13 +39,12 @@ public class DatabaseInitializer {
             Experience currentProject = new Experience(
                 "",
                 "Personal Projects",
-                "2026",
-                "Present",
-                "Development of an interactive web application for resume presentation.",
+                "",
+                "",
+                "Projects developed in my personal time.",
                 Arrays.asList(
-                    "Designed and implemented a RESTful backend in Spring Boot using Java and Spring Security with API-key authentication.",
-                    "Configured MongoDB for non-relational persistence, optimizing database schemas for dynamic creation and updates.",
-                    "Built a responsive frontend in React and Tailwind CSS"
+                    "Interactive CV Web Application (2026)::Designed and implemented a RESTful Spring Boot backend with MongoDB and built a responsive React/Tailwind frontend.",
+                    "Penha Garcia Summer School Website (2024)::Implemented a website for the village of Penha Garcia."
                 )
             );
 
@@ -75,40 +74,45 @@ public class DatabaseInitializer {
             Education lei = new Education(
                 "ISCTE - University Institute of Lisbon",
                 "Degree in Computer Engineering",
-                "2023",
-                "2026"
-            );
-            Education etiYear1 = new Education(
-                "ISCTE - University Institute of Lisbon",
-                "Degree in Telecommunications and Computer Engineering",
                 "2022",
-                "2023"
+                "2026"
             );
             Education iselYear1 = new Education(
                 "ISEL - Lisbon Higher Institute of Engineering",
-                "Degree in Electronics, Telecommunications and Computer Engineering",
+                "1st year of Electronics, Telecommunications and Computer Engineering",
                 "2021",
                 "2022"
             );
-            cvInfo.setEducation(Arrays.asList(lei, etiYear1, iselYear1));
+            cvInfo.setEducation(Arrays.asList(lei, iselYear1));
 
             // Extracurricular details (Lisboa Games Week Volunteer)
             Experience lgwVolunteer = new Experience(
                 "Lisboa Games Week",
                 "Event Operations Volunteer",
                 "2022",
-                "2022",
+                "",
                 "Volunteer work at the largest gaming convention in Portugal.",
                 Arrays.asList(
                     "Provided logistical support in public assistance and supervised game testing areas."
                 )
             );
-            cvInfo.setVolunteer(Collections.singletonList(lgwVolunteer));
+            
+            Experience pgWebsite = new Experience(
+                "Summer School of ISCTE in Penha Garcia",
+                "Website for village in Castelo Branco",
+                "2024",
+                "",
+                "Analysis of air, noise, and water quality in the border territory and description of the smuggling route.",
+                Arrays.asList(
+                    "Led the development of a website for the village of Penha Garcia and their history. Also implemented the SCRUM methodology."
+                )
+            );
+            cvInfo.setVolunteer(Arrays.asList(lgwVolunteer, pgWebsite));
 
             // Skill Groups
             SkillGroup languages = new SkillGroup(
                 "Languages",
-                Arrays.asList("Java", "JavaScript", "SQL", "HTML", "CSS")
+                Arrays.asList("Java","Scala", "JavaScript", "CSS")
             );
             SkillGroup frameworks = new SkillGroup(
                 "Frameworks & Libraries",
@@ -116,7 +120,7 @@ public class DatabaseInitializer {
             );
             SkillGroup tools = new SkillGroup(
                 "Databases & Tools",
-                Arrays.asList("MongoDB", "Git", "Maven", "PostgreSQL")
+                Arrays.asList("MongoDB", "Git", "Maven", "SQL", "PostgreSQL", "OutSystems")
             );
             cvInfo.setSkills(Arrays.asList(languages, frameworks, tools));
 
