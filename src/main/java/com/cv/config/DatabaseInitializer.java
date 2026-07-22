@@ -112,7 +112,7 @@ public class DatabaseInitializer {
             // Skill Groups
             SkillGroup languages = new SkillGroup(
                 "Languages",
-                Arrays.asList("Java","Scala", "JavaScript", "CSS")
+                Arrays.asList("Java", "Scala", "JavaScript", "CSS", "Python")
             );
             SkillGroup frameworks = new SkillGroup(
                 "Frameworks & Libraries",
