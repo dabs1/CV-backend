@@ -35,7 +35,7 @@ public class DatabaseInitializer {
             );
             cvInfo.setPersonalInfo(personalInfo);
 
-            // Pesonal projects
+            // Personal projects
             Experience currentProject = new Experience(
                 "",
                 "Personal Projects",
@@ -43,8 +43,8 @@ public class DatabaseInitializer {
                 "",
                 "Projects developed in my personal time.",
                 Arrays.asList(
-                    "Interactive CV Web Application (2026)::Designed and implemented a RESTful Spring Boot backend with MongoDB and built a responsive React/Tailwind frontend.",
-                    "Penha Garcia Summer School Website (2024)::Implemented a website for the village of Penha Garcia."
+                    "Interactive CV Web Application (2026)::Developed a full-stack portfolio application with a RESTful Spring Boot backend, a MongoDB database, and a responsive React and Tailwind CSS frontend.",
+                    "Penha Garcia Summer School Website (2024)::Created a website to showcase the village of Penha Garcia, built as part of a summer school initiative."
                 )
             );
 
@@ -55,17 +55,17 @@ public class DatabaseInitializer {
                 "2026",
                 "Projects for academic courses during the Computer Engineering degree.",
                 Arrays.asList(
-                    "Sudoku in Java::Enhanced understanding of object-oriented programming while creating a Sudoku game implementation, focused on robust game logic and advanced Java concepts.",
-                    "ViniSys Relational Database::Strengthened data modeling and SQL proficiency by designing and implementing a comprehensive relational database for an advanced wine management system.",
-                    "Advanced OOP in Java::Solidified core software engineering principles by building a robust Java application demonstrating advanced design patterns and object-oriented architecture.",
-                    "ViniSys Requirements Engineering::Developed crucial systems analysis skills by drafting comprehensive software specifications and requirements (Caderno de Encargos) for a complex wine management platform.",
-                    "Computer Networks Simulator::Gained hands-on experience in network architecture by configuring and simulating complex routing protocols and network interactions.",
-                    "Functional Programming Solutions::Expanded algorithmic problem-solving capabilities by addressing complex challenges utilizing pure functional programming paradigms.",
-                    "Multi-Agent System (SMA) Simulator::Explored artificial intelligence concepts by developing a simulator to model autonomous agents, their intricate behaviors, and complex environmental interactions.",
-                    "Fullstack Java Web Application::Demonstrated end-to-end development capabilities by creating a complete web platform utilizing a RESTful Java backend and a dynamic Vanilla JavaScript/CSS frontend.",
-                    "Comprehensive Data Analysis::Honed data science skills by processing, analyzing, and visualizing complex datasets to extract meaningful trends and business insights.",
-                    "Kahoot Clone in Java::Mastered concurrent and distributed programming by implementing a real-time, multi-threaded Kahoot-style quiz application utilizing network sockets.",
-                    "Enterprise Systems Integration (PISID)::Strengthened enterprise-level architecture skills by building an integration project that effectively connects and manages disparate data sources and web services."
+                    "Sudoku in Java::Developed a fully functional Sudoku game, focusing on object-oriented design patterns and robust game logic.",
+                    "ViniSys Relational Database::Designed and implemented a comprehensive relational database in SQL for a complex wine management system.",
+                    "Advanced OOP in Java::Built a robust application applying advanced object-oriented design patterns and software engineering principles.",
+                    "ViniSys Requirements Engineering::Drafted comprehensive software specifications and requirements (Caderno de Encargos) for a wine management platform.",
+                    "Computer Networks Simulator::Configured and simulated complex routing protocols and network interactions within a virtual environment.",
+                    "Functional Programming Solutions::Solved complex algorithmic challenges using pure functional programming concepts.",
+                    "Multi-Agent System (SMA) Simulator::Developed a simulator to model autonomous agents, exploring their behaviors and interactions within complex environments.",
+                    "Fullstack Java Web Application::Created a complete web platform integrating a RESTful Java backend with a dynamic Vanilla JavaScript and CSS frontend.",
+                    "Comprehensive Data Analysis::Processed, analyzed, and visualized complex datasets to extract meaningful trends and business insights.",
+                    "Kahoot Clone in Java::Built a real-time, multi-threaded quiz application utilizing network sockets for distributed communication.",
+                    "Enterprise Systems Integration (PISID)::Developed an enterprise-level integration project to connect and manage disparate data sources and web services."
                 )
             );
             cvInfo.setExperience(Arrays.asList(currentProject, otherProjects));
@@ -91,9 +91,9 @@ public class DatabaseInitializer {
                 "Event Operations Volunteer",
                 "2022",
                 "",
-                "Volunteer work at the largest gaming convention in Portugal.",
+                "Volunteer work at Portugal's largest gaming convention.",
                 Arrays.asList(
-                    "Provided logistical support in public assistance and supervised game testing areas."
+                    "Provided logistical support, assisted attendees, and supervised game testing areas."
                 )
             );
             
@@ -102,9 +102,9 @@ public class DatabaseInitializer {
                 "Website for village in Castelo Branco",
                 "2024",
                 "",
-                "Analysis of air, noise, and water quality in the border territory and description of the smuggling route.",
+                "Interdisciplinary project focusing on environmental analysis and local history.",
                 Arrays.asList(
-                    "Led the development of a website for the village of Penha Garcia and their history. Also implemented the SCRUM methodology."
+                    "Led the development of a website dedicated to the history of Penha Garcia using the SCRUM framework. The project also involved analyzing air, noise, and water quality, and documenting historical smuggling routes."
                 )
             );
             cvInfo.setVolunteer(Arrays.asList(lgwVolunteer, pgWebsite));
