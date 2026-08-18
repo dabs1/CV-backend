@@ -22,6 +22,7 @@ This repository contains the backend service for my Curriculum Vitae (CV). It's 
 
 - Java Development Kit (JDK) 17 or higher
 - MongoDB (running locally or via MongoDB Atlas)
+- Docker (optional, for containerized deployment)
 
 ### Installation
 
@@ -33,7 +34,7 @@ This repository contains the backend service for my Curriculum Vitae (CV). It's 
 2. Configure the database (Optional):
    By default, the application connects to a local MongoDB instance at `mongodb://localhost:27017/cvdb`. You can change this in `src/main/resources/application.properties` or `application.yml`.
 
-### Running the Application
+### Running the Application (Locally)
 
 To start the local development server, run:
 
@@ -47,7 +48,40 @@ mvnw.cmd spring-boot:run
 ./mvnw spring-boot:run
 ```
 
+### Running with Docker
+
+You can easily build and run the application using Docker:
+
+1. Build the Docker image:
+   ```bash
+   docker build -t cv-backend .
+   ```
+2. Run the container:
+   ```bash
+   docker run -p 8080:8080 cv-backend
+   ```
+
 The application API will be accessible at `http://localhost:8080/api/cv`.
+
+## API Documentation
+
+The backend exposes the following primary endpoints:
+
+| HTTP Method | Endpoint | Description |
+| ----------- | -------- | ----------- |
+| `GET` | `/api/cv` | Retrieves the full CV data in JSON format (Experience, Education, Skills, etc.). |
+
+*(Note: Administrative endpoints are protected via an API Key authentication filter).*
+
+## Project Structure
+
+The codebase follows a standard Spring Boot architecture to ensure separation of concerns:
+
+- `com.cv.controller` - REST Controllers defining the API endpoints.
+- `com.cv.service` - Business logic and orchestration layer.
+- `com.cv.repository` - Spring Data MongoDB interfaces for database interactions.
+- `com.cv.model` - Data models representing the CV structure.
+- `com.cv.config` - Configuration classes (Security, Database Initialization).
 
 ## Live Application
 
