@@ -24,7 +24,7 @@ public class DatabaseInitializer {
 
             PersonalInfo personalInfo = new PersonalInfo(
                 "Tomás Rodrigues Francisco",
-                "Software Engineer",
+                "Computer Engineer",
                 "tom4s.fr4ncisco@gmail.com",
                 "+351 935 081 663",
                 "Torres Vedras, Portugal",
