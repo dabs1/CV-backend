@@ -44,7 +44,7 @@ public class DatabaseInitializer {
                 "Projects developed in my personal time",
                 Arrays.asList(
                     "Interactive CV Web Application (2026)::Developed a full-stack application with a RESTful Spring Boot backend, a MongoDB database, and a React and Tailwind CSS frontend.",
-                    "Penha Garcia Summer School Website (2024)::Developed an interactive website to showcase the village and historic smuggling routes of Penha Garcia using HTML5, CSS3, JavaScript, and Leaflet.js (OpenStreetMap), built under the SCRUM framework during an ISCTE Summer School initiative."
+                    "Penha Garcia Summer School Website (2024)::Developed a website to showcase the village and historic smuggling routes of Penha Garcia using HTML5, CSS3, JavaScript, and Leaflet.js (OpenStreetMap), built under the SCRUM framework during an ISCTE Summer School initiative."
                 )
             );
 
