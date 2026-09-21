@@ -44,7 +44,7 @@ public class DatabaseInitializer {
                 "Projects developed in my personal time",
                 Arrays.asList(
                     "Interactive CV Web Application (2026)::Developed a full-stack application with a RESTful Spring Boot backend, a MongoDB database, and a React and Tailwind CSS frontend.",
-                    "Penha Garcia Summer School Website (2024)::Developed a website to showcase the village of Penha Garcia, built as part of a summer school initiative."
+                    "Penha Garcia Summer School Website (2024)::Developed an interactive website to showcase the village and historic smuggling routes of Penha Garcia using HTML5, CSS3, JavaScript, and Leaflet.js (OpenStreetMap), built under the SCRUM framework during an ISCTE Summer School initiative."
                 )
             );
 
@@ -70,20 +70,14 @@ public class DatabaseInitializer {
             );
             cvInfo.setExperience(Arrays.asList(currentProject, otherProjects));
 
-            // Academic timeline mapping transitions professionally
+            // Academic timeline
             Education lei = new Education(
                 "ISCTE - University Institute of Lisbon",
-                "Degree in Computer Engineering",
+                "Bachelor's Degree in Computer Engineering",
                 "2022",
                 "2026"
             );
-            Education iselYear1 = new Education(
-                "ISEL - Lisbon Higher Institute of Engineering",
-                "1st year of Electronics, Telecommunications and Computer Engineering",
-                "2021",
-                "2022"
-            );
-            cvInfo.setEducation(Arrays.asList(lei, iselYear1));
+            cvInfo.setEducation(Collections.singletonList(lei));
 
             // Extracurricular details (Lisboa Games Week Volunteer)
             Experience lgwVolunteer = new Experience(
@@ -104,7 +98,7 @@ public class DatabaseInitializer {
                 "",
                 "Interdisciplinary project focusing on environmental analysis and local history.",
                 Arrays.asList(
-                    "Led the development of a website dedicated to the history of Penha Garcia using the SCRUM framework. The project involved analyzing air, noise, and water quality, and documenting historical smuggling routes."
+                    "Led the development of an interactive website dedicated to the history and smuggling routes of Penha Garcia using HTML5, CSS3, JavaScript, and Leaflet.js under the SCRUM framework. The project also involved analyzing air, noise, and water quality data."
                 )
             );
             cvInfo.setVolunteer(Arrays.asList(lgwVolunteer, pgWebsite));
