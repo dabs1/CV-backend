@@ -44,7 +44,7 @@ public class DatabaseInitializer {
                 "Projects developed in my personal time",
                 Arrays.asList(
                     "Interactive CV Web Application (2026)::Developed a full-stack application with a RESTful Spring Boot backend, a MongoDB database, and a React and Tailwind CSS frontend.",
-                    "Penha Garcia Summer School Website (2024)::Developed a website to showcase the village and historic smuggling routes of Penha Garcia using HTML5, CSS3, JavaScript, and Leaflet.js (OpenStreetMap), built under the SCRUM framework during an ISCTE Summer School initiative."
+                    "Penha Garcia Smuggling Routes & Heritage Platform (2024)::Built an interactive web platform (https://home.iscte-iul.pt/~alssl/contrabando/) using HTML5, CSS3, JavaScript, and Leaflet.js under the SCRUM framework to document and showcase the historic smuggling routes and cultural heritage of Penha Garcia, developed during the ISTA-Iscte EduVillage Summer School."
                 )
             );
 
@@ -92,13 +92,15 @@ public class DatabaseInitializer {
             );
             
             Experience pgWebsite = new Experience(
-                "Summer School of ISCTE in Penha Garcia",
-                "Website for village in Castelo Branco",
-                "2024",
-                "",
-                "Interdisciplinary project focusing on environmental analysis and local history.",
+                "ISTA - Iscte (EduVillage Program)",
+                "Participant & Full-Stack Developer - Healthy and Sustainable Environment Summer School",
+                "Jul 2024",
+                "Jul 2024",
+                "Interdisciplinary initiative in Penha Garcia combining digital heritage preservation with environmental field monitoring and remote sensing technologies.",
                 Arrays.asList(
-                    "Led the development of an interactive website dedicated to the history and smuggling routes of Penha Garcia using HTML5, CSS3, JavaScript, and Leaflet.js under the SCRUM framework. The project also involved analyzing air, noise, and water quality data."
+                    "Led the agile (SCRUM) development of the interactive digital platform for the Smuggling Route (https://home.iscte-iul.pt/~alssl/contrabando/), integrating Leaflet.js, OpenStreetMap, HTML5, CSS3, and JavaScript.",
+                    "Conducted environmental field sensing seminars and data collection covering air quality (contributing to the official technical report), water quality, and acoustic soundscape monitoring.",
+                    "Applied remote sensing techniques using thermal imaging (thermography) and drone-based aerial image acquisition to analyze local environmental characteristics."
                 )
             );
             cvInfo.setVolunteer(Arrays.asList(lgwVolunteer, pgWebsite));
