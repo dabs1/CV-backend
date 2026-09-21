@@ -95,7 +95,7 @@ public class DatabaseInitializer {
                 "ISTA - Iscte (EduVillage Program)",
                 "Participant & Full-Stack Developer - Healthy and Sustainable Environment Summer School",
                 "Jul 2024",
-                "Jul 2024",
+                "",
                 "Interdisciplinary initiative in Penha Garcia combining digital heritage preservation with environmental field monitoring and remote sensing technologies.",
                 Arrays.asList(
                     "Led the agile (SCRUM) development of the interactive digital platform for the Smuggling Route (https://home.iscte-iul.pt/~alssl/contrabando/), integrating Leaflet.js, OpenStreetMap, HTML5, CSS3, and JavaScript.",
