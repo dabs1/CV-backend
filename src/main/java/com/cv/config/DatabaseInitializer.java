@@ -44,7 +44,7 @@ public class DatabaseInitializer {
                 "Projects developed in my personal time",
                 Arrays.asList(
                     "Interactive CV Web Application (2026)::Developed a full-stack application with a RESTful Spring Boot backend, a MongoDB database, and a React and Tailwind CSS frontend.",
-                    "Model Context Protocol (MCP) Server for CV (2026)::Developed a TypeScript and Node.js MCP server using @modelcontextprotocol/sdk and Zod to expose CV data to AI assistants (such as Claude Desktop) via stdio transport, implementing custom tools (get_cv, list_sections, get_section, search_cv), resources, prompts, and an in-memory caching layer connecting to the Spring Boot REST API.",
+                    "Model Context Protocol (MCP) Server for CV (2026)::Developed a TypeScript and Node.js MCP server using @modelcontextprotocol/sdk and Zod to expose CV data to AI (Claude Desktop) via stdio transport, implementing custom tools (get_cv, list_sections, get_section, search_cv), resources, prompts, and an in-memory caching layer connecting to the Spring Boot REST API.",
                     "Penha Garcia Smuggling Routes & Heritage Platform (2024)::Built an interactive web platform (https://home.iscte-iul.pt/~alssl/contrabando/) using HTML5, CSS3, JavaScript, and Leaflet.js under the SCRUM framework to document and showcase the historic smuggling routes and cultural heritage of Penha Garcia, developed during the ISTA-Iscte EduVillage Summer School."
                 )
             );
