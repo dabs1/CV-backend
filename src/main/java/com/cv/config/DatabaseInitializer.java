@@ -109,7 +109,7 @@ public class DatabaseInitializer {
             // Skill Groups
             SkillGroup languages = new SkillGroup(
                 "Languages",
-                Arrays.asList("Java", "Scala", "JavaScript", "CSS", "Python")
+                Arrays.asList("Java", "Scala", "JavaScript", "TypeScript", "Node.js", "CSS", "Python")
             );
             SkillGroup frameworks = new SkillGroup(
                 "Frameworks & Libraries",
@@ -119,7 +119,11 @@ public class DatabaseInitializer {
                 "Databases & Tools",
                 Arrays.asList("MongoDB", "Git", "Maven", "SQL", "PostgreSQL", "OutSystems")
             );
-            cvInfo.setSkills(Arrays.asList(languages, frameworks, tools));
+            SkillGroup aiTooling = new SkillGroup(
+                "AI Tooling & Protocols",
+                Arrays.asList("Model Context Protocol (MCP)", "LLM Tool Calling", "Agentic Workflows", "Prompt Engineering")
+            );
+            cvInfo.setSkills(Arrays.asList(languages, frameworks, tools, aiTooling));
 
             // Languages
             Language portuguese = new Language("Portuguese", "Native");
