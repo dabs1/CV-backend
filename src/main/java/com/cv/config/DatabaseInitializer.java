@@ -98,7 +98,7 @@ public class DatabaseInitializer {
                 "",
                 "Interdisciplinary initiative in Penha Garcia combining digital heritage preservation with environmental field monitoring and remote sensing technologies.",
                 Arrays.asList(
-                    "Worked in the agile (SCRUM) development of the interactive digital platform for the Smuggling Route (https://home.iscte-iul.pt/~alssl/contrabando/), integrating Leaflet.js, OpenStreetMap, HTML5, CSS3, and JavaScript.",
+                    "Developed, as part of an agile (SCRUM) team, the interactive digital platform for the Smuggling Route (https://home.iscte-iul.pt/~alssl/contrabando/), integrating Leaflet.js, OpenStreetMap, HTML5, CSS3, and JavaScript.",
                     "Conducted environmental field sensing seminars and data collection covering air quality (contributing to the official technical report), water quality, and acoustic soundscape monitoring.",
                     "Applied remote sensing techniques using thermal imaging (thermography) and drone-based aerial image acquisition to analyze local environmental characteristics."
                 )
