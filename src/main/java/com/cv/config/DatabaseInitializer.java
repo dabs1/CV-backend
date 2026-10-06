@@ -28,7 +28,7 @@ public class DatabaseInitializer {
                 "tom4s.fr4ncisco@gmail.com",
                 "+351 935 081 663",
                 "Torres Vedras, Portugal",
-                "Computer Engineering graduate from ISCTE-IUL with a strong interest in technology and problem-solving. I enjoy tackling challenging problems and turning ideas into practical solutions. Currently seeking a new professional opportunity where I can apply my skills, continue learning, and grow professionally.",
+                "Computer Engineering graduate from ISCTE-IUL with hands-on project experience in full-stack and backend development using Java, Spring Boot, TypeScript, and React. Looking to apply my skills in a professional environment, contribute to practical software solutions, and continue growing as a software engineer while exploring emerging technologies such as AI and MCP.",
                 "",
                 "https://www.linkedin.com/in/tomasrfrancisco",
                 "https://github.com/dabs1"
